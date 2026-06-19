@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useTheme } from '../context/ThemeContext';
 import { useScrollAnimation } from '../hooks/useCustomHooks';
-import { portfolioData } from '../utils/data';
+import { portfolioData } from '../utils/Data';
 
 export default function Experience() {
   const { theme } = useTheme();

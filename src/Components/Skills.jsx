@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTheme } from '../context/ThemeContext';
 import { useScrollAnimation } from '../hooks/useCustomHooks';
-import { portfolioData } from '../utils/data';
+import { portfolioData } from '../utils/Data';
 
 const categories = ['All', 'Frontend', 'Backend', 'Database'];
 

@@ -4,7 +4,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { useTheme } from '../context/ThemeContext';
 import { useScrollAnimation } from '../hooks/useCustomHooks';
-import { portfolioData } from '../utils/data';
+import { portfolioData } from '../utils/Data';
 
 const ContactSchema = Yup.object().shape({
   name: Yup.string().min(2, 'Name must be at least 2 characters').required('Name is required'),
